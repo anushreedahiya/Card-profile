@@ -59,7 +59,11 @@
       height: 450px;
     }
 
-    .card[data-state="#experience"] {
+    .card[data-state="#education"] {
+      height: 600px;
+    }
+
+    .card[data-state="#projects"] {
       height: 600px;
     }
 
@@ -426,28 +430,64 @@
             </svg> </a>
         </div>
       </div>
-      <div class="card-section" id="experience">
+      <div class="card-section" id="education">
         <div class="card-content">
-          <div class="card-subtitle">WORK EXPERIENCE</div>
+          <div class="card-subtitle">Educational Details</div>
           <div class="card-timeline">
             <div class="card-item" data-year="2024">
-              <div class="card-item-title">Induction<span>2024</span></div>
-              <div class="card-item-desc">Introduced GDSC to freshers and promoted club on social media</div>
+              <div class="card-item-title">BTech<span>2022-26</span></div>
+              <div class="card-item-desc">Symbiosis Institute of Technology, Pune 
+                <br>B. Tech in Computer Science and Engineering 
+                <br>(CGPA 8.29) 
+              </div>
+            </div>
+            <div class="card-item" data-year="2022">
+              <div class="card-item-title">Intermediate Schooling<span> 2022</span></div>
+              <div class="card-item-desc">Scholars Rosary Senior Secondary School
+                <br>Higher Secondary Certificate
+                <br> 94.4%
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card-section" id="projects">
+        <div class="card-content">
+          <div class="card-subtitle">Project Details</div>
+          <div class="card-timeline">
+            <div class="card-item" data-year="2024">
+              <div class="card-item-title"><a href="https://github.com/anushreedahiya/Skin-disease-recognition" style="color: black; text-decoration: none;">Skin Disease recognition using Machine Learning (ML) | ML, Python </a><span><br>February 2024</span></div>
+              <div class="card-item-desc">● Developed an effective code using CNN model which gave an accuracy of 90.49%. 
+                <br>● Enhanced the efficiency of image analysis which was gradually increased from 83.84%. 
+                <br>● A computational time of 6.4 seconds was taken for the analysis. 
+                <br>● Written a research paper and submitted for conference (awaiting decision). 
+                <br>● Used libraries like: TensorFlow, NumPy, Keras. 
+              </div>
             </div>
             <div class="card-item" data-year="2024">
-              <div class="card-item-title">Induction<span>2024</span></div>
-              <div class="card-item-desc">Introduced GDSC to freshers and promoted club on social media</div>
+              <div class="card-item-title"><a href="https://github.com/anushreedahiya/Online-Recipe-Repository" style="color: black; text-decoration: none;">Online Recipe Repository System | Java, HTML, MySQL </a><span><br>February 2024</span></div>
+              <div class="card-item-desc">● Developed a web system for the students or bachelors, helping them to get recipe online. 
+                <br>● Aim was to customize recipe according to the ingredients available to the user.
+              </div>
             </div>
             <div class="card-item" data-year="2024">
-              <div class="card-item-title">Induction<span>2024</span></div>
-              <div class="card-item-desc">Introduced GDSC to freshers and promoted club on social media</div>
+              <div class="card-item-title"><a href="https://github.com/anushreedahiya/Card-profile" style="color: black; text-decoration: none;">Online Card Portfolio | HTML, CSS </a><span><br>August 2024</span></div>
+              <div class="card-item-desc">● Developed a website for personal portfolio showcasing the projects done and experience gained. 
+                <br>● Generating the QR of the same using Netlify so that the contacts can be easily shared and the portfolio can be 
+                used as resume. 
+              </div>
             </div>
+            <div class="card-item" data-year="2023">
+              <div class="card-item-title"><a href="https://github.com/anushreedahiya/Programming-Paradigm" style="color: black; text-decoration: none;">Online Cafe Ordering System | C++, OOPs concept </a><span><br>September 2023</span></div>
+              <div class="card-item-desc">● Developed a web system for the students or bachelors, helping them to get recipe online. 
+                <br>● Aim was to customize recipe according to the ingredients available to the user.
+              </div>
             </div>
           </div>
         </div>
       </div>
       
-
       <div class="card-section" id="contact">
         <div class="card-content">
           <div class="card-subtitle">CONTACT</div>
@@ -480,8 +520,9 @@
       </div>
       <div class="card-buttons">
         <button data-section="#about" class="is-active">ABOUT</button>
-        <button data-section="#experience">EXPERIENCE</button>
-        <button data-section="#contact">CONTACTs</button>
+        <button data-section="#education">EDUCATION</button>
+        <button data-section="#projects">PROJECTS</button>
+        <button data-section="#contact">CONTACT</button>
       </div>
     </div>
   </div>
