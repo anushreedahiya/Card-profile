@@ -33,7 +33,7 @@
     }
 
     .card {
-      max-width: 340px;
+      max-width: 570px;
       margin: auto;
       overflow-y: auto;
       position: relative;
@@ -64,6 +64,10 @@
     }
 
     .card[data-state="#projects"] {
+      height: 600px;
+    }
+
+    .card[data-state="#skills"] {
       height: 600px;
     }
 
@@ -413,7 +417,10 @@
       <div class="card-section is-active" id="about">
         <div class="card-content">
           <div class="card-subtitle">ABOUT</div>
-          <p class="card-desc">I'm an enthusiastic person who likes to learn new things be it in development or creativity. My goal is to use the practical knowledge that I have to create new and exciting applications. Looking forward to team up with new people and learn new things together.
+          <p class="card-desc">I'm an enthusiastic person who likes to learn new things be it in development or creativity. 
+            Motivated and patient, with a strong commitment to hard work and teamwork. 
+            Eager to grow professionally while contributing to success in dynamic environments.  
+            <br>Looking forward to team up with new people and learn new things together.
         </div>
         <div class="card-social">
           <a href="https://github.com/anushreedahiya" target="_blank">
@@ -430,6 +437,7 @@
             </svg> </a>
         </div>
       </div>
+
       <div class="card-section" id="education">
         <div class="card-content">
           <div class="card-subtitle">Educational Details</div>
@@ -446,6 +454,13 @@
               <div class="card-item-desc">Scholars Rosary Senior Secondary School
                 <br>Higher Secondary Certificate
                 <br> 94.4%
+              </div>
+            </div>
+            <div class="card-item" data-year="2020">
+              <div class="card-item-title">Matriculation Certificate<span> 2022</span></div>
+              <div class="card-item-desc">Scholars Rosary Senior Secondary School
+                <br>Secondary School Certificate (Grade 10)
+                <br> 91.6%
               </div>
             </div>
           </div>
@@ -487,6 +502,28 @@
           </div>
         </div>
       </div>
+
+      <div class="card-section" id="skills">
+        <div class="card-content">
+          <div class="card-subtitle">Achievements</div>
+          <div class="card-timeline">
+            <div class="card-item" data-year="2024">
+              <div class="card-item-title">BTech<span>2022-26</span></div>
+              <div class="card-item-desc">Symbiosis Institute of Technology, Pune 
+                <br>B. Tech in Computer Science and Engineering 
+                <br>(CGPA 8.29) 
+              </div>
+            </div>
+            <div class="card-item" data-year="2022">
+              <div class="card-item-title">Intermediate Certificate<span> 2022</span></div>
+              <div class="card-item-desc">Scholars Rosary Senior Secondary School
+                <br>Higher Secondary Certificate (Grade 12)
+                <br> 94.4%
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
       
       <div class="card-section" id="contact">
         <div class="card-content">
@@ -521,6 +558,7 @@
       <div class="card-buttons">
         <button data-section="#about" class="is-active">ABOUT</button>
         <button data-section="#education">EDUCATION</button>
+        <button data-section="#skills">ACHIEVEMENTS</button>
         <button data-section="#projects">PROJECTS</button>
         <button data-section="#contact">CONTACT</button>
       </div>
